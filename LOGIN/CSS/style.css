@@ -1,0 +1,56 @@
+/* ESTILO GENERAL */
+body {
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ESTILO LOGIN */
+form {
+    width: 330px;
+    margin: 100px auto;
+    background-color: rgba(192, 192, 192, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    background-color: #717171;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3b3838;
+}
+
+label{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none; /*quita el subrayado del enlace*/
+    color: black;
+}
+
+a:hover{
+    color: #717070;
+}
+
