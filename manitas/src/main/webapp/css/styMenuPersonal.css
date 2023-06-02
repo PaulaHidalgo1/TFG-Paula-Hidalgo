@@ -1,0 +1,25 @@
+       body {
+            background-color: #000;
+            color: #888;
+            font-family: Arial, sans-serif;
+        }
+
+        .menu-link {
+            display: inline-block;
+            margin-right: 20px;
+            color: #888;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .menu-link:hover::before {
+            content: attr(data-message);
+            position: absolute;
+            top: 20px;
+            left: 0;
+            background-color: #222;
+            color: #fff;
+            padding: 5px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
